@@ -1,0 +1,74 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right,#fa66fc,#252525);
+}
+canvas {
+  display: block;
+}
+
+.header{
+ text-align: center;
+ color: hsl(10,80%,50%);
+ background-color: hsl(10,50%,80%);
+}
+
+.header:hover{
+  
+  background-color: hsl(10,30%,90%);
+}
+.sub-header{
+  text-align: center;
+  background-color: hsl(80,50%,80%);
+  color:indigo;
+}
+
+.im1{
+  display: flex;
+  justify-content: space-between;
+  margin:20px;
+  
+}
+
+.im1 img:hover{
+  width:300px;
+  height:150px;
+  transition: 1s linear;
+  
+}
+
+.im2{
+  display: flex;
+  justify-content: space-between;
+  margin:20px
+}
+.im2 img:hover{
+  width:300px;
+  height:150px;
+  transition: 1s linear
+}
+
+
+.im3{
+  display: flex;
+  justify-content: space-between;
+  margin:20px;
+ 
+}
+.im3 img:hover{
+  width:300px;
+  height:150px;
+  transition: 1s linear;
+
+}
+
+.im4{
+  display: flex;
+  justify-content: space-between;
+  margin:20px
+}
+.im4 img:hover{
+  width:300px;
+  height:150px;
+  transition: 1s linear
+}
